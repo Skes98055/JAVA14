@@ -12,6 +12,7 @@ public class Class08 {
         while((count= s3.read(bys))!=-1) {
             ans.write(bys,0,count);
         }
+        System.out.println("合併完成\n檔案位於: C:\\Users\\skes9\\Desktop\\ccc.txt");
         ans.close();
         s3.close();
     }
